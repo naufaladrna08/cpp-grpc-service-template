@@ -1,0 +1,311 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						5
+					]
+				},
+				{
+					"build" : "thirdparty/Bcrypt.cpp",
+					"jsonFile" : "directory-thirdparty.Bcrypt.cpp-Debug-11fdee476970305bfc3a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "thirdparty/Bcrypt.cpp",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "thirdparty/jwt-cpp",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-thirdparty.jwt-cpp-Debug-ee5664302e3c56c8403e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "thirdparty/jwt-cpp"
+				},
+				{
+					"build" : "_deps/nlohmann_json-build",
+					"jsonFile" : "directory-_deps.nlohmann_json-build-Debug-928ed0b98e40f126c75a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "build/_deps/nlohmann_json-src"
+				},
+				{
+					"build" : "thirdparty/jwt-cpp/example",
+					"childIndexes" : 
+					[
+						5
+					],
+					"jsonFile" : "directory-thirdparty.jwt-cpp.example-Debug-7d736ec58ca950e7fd55.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 4,
+					"source" : "thirdparty/jwt-cpp/example",
+					"targetIndexes" : 
+					[
+						4,
+						6,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				},
+				{
+					"build" : "thirdparty/jwt-cpp/example/traits",
+					"jsonFile" : "directory-thirdparty.jwt-cpp.example.traits-Debug-0c7c88534b16e47f087a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 5,
+					"source" : "thirdparty/jwt-cpp/example/traits",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "auth",
+					"targetIndexes" : 
+					[
+						0,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "bcrypt",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "jwt-cpp",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "nlohmann_json",
+					"parentIndex" : 2
+				},
+				{
+					"childIndexes" : 
+					[
+						5
+					],
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "jwt-cpp-examples",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						4,
+						6,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "jwt-cpp-traits",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "auth::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auth-Debug-0534cab947012a1ee5fb.json",
+					"name" : "auth",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "bcrypt::@fd81a23bbf442884c17d",
+					"jsonFile" : "target-bcrypt-Debug-ddf85b8044e2bd1a71a2.json",
+					"name" : "bcrypt",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "boost-json::@3c1a1322ca70d405e57e",
+					"jsonFile" : "target-boost-json-Debug-10f878ec53bb972988f2.json",
+					"name" : "boost-json",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "boost_json::@3c1a1322ca70d405e57e",
+					"jsonFile" : "target-boost_json-Debug-5e1e6d1e9d0a45a6201c.json",
+					"name" : "boost_json",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "es256k::@162682400c9d343b5f46",
+					"jsonFile" : "target-es256k-Debug-87fd5c8f6c7e2ba0f600.json",
+					"name" : "es256k",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw_grpc_proto::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw_grpc_proto-Debug-69bcf7c95daa817811b0.json",
+					"name" : "hw_grpc_proto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "jwks-verify::@162682400c9d343b5f46",
+					"jsonFile" : "target-jwks-verify-Debug-322500feb65f101de9ae.json",
+					"name" : "jwks-verify",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "nlohmann-json::@3c1a1322ca70d405e57e",
+					"jsonFile" : "target-nlohmann-json-Debug-d3771fed330657f87551.json",
+					"name" : "nlohmann-json",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "partial-claim-verifier::@162682400c9d343b5f46",
+					"jsonFile" : "target-partial-claim-verifier-Debug-007ebeb4f635814ac80b.json",
+					"name" : "partial-claim-verifier",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "print-claims::@162682400c9d343b5f46",
+					"jsonFile" : "target-print-claims-Debug-a2f92774b79cc1440db1.json",
+					"name" : "print-claims",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "private-claims::@162682400c9d343b5f46",
+					"jsonFile" : "target-private-claims-Debug-c3eb86456e7860d0e763.json",
+					"name" : "private-claims",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "rsa-create::@162682400c9d343b5f46",
+					"jsonFile" : "target-rsa-create-Debug-f1ae2d3403213bd3a301.json",
+					"name" : "rsa-create",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "rsa-verify::@162682400c9d343b5f46",
+					"jsonFile" : "target-rsa-verify-Debug-3367557fa51069fbcbf8.json",
+					"name" : "rsa-verify",
+					"projectIndex" : 4
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/naufal/Documents/Projects/C_CXX_Projects/Internal/grpc-auth-service/build",
+		"source" : "/home/naufal/Documents/Projects/C_CXX_Projects/Internal/grpc-auth-service"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

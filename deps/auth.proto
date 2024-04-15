@@ -1,0 +1,66 @@
+syntax = "proto3";
+
+service Auth {
+  rpc HelloWorld(HelloWorldRequest) returns (HelloWorldResponse);
+  rpc Login(LoginRequest) returns (LoginResponse);
+  rpc Register(RegisterRequest) returns (RegisterResponse);
+  rpc ValidateToken(ValidateTokenRequest) returns (ValidateTokenResponse);
+  rpc GetMe(GetMeRequest) returns (GetMeResponse);
+  rpc ResetPassword(ResetPasswordRequest) returns (ResetPasswordResponse);
+};
+
+message HelloWorldRequest {
+  string additional = 1;
+}
+
+message HelloWorldResponse {
+  string message = 1;
+  repeated string users = 2;
+};
+
+message LoginRequest {
+  string username = 1;
+  string password = 2;
+}
+
+message LoginResponse {
+  string token = 1;
+  string message = 2;
+};
+
+message RegisterRequest {
+  string username = 1;
+  string password = 2;
+}
+
+message RegisterResponse {
+  string message = 1;
+  string token = 2;
+};
+
+message ValidateTokenRequest {
+  string token = 1;
+}
+
+message ValidateTokenResponse {
+  bool valid = 1;
+  string message = 2;
+};
+
+message GetMeRequest {
+  string token = 1;
+}
+
+message GetMeResponse {
+  string username = 1;
+  string message = 2;
+};
+
+message ResetPasswordRequest {
+  string token = 1;
+  string password = 2;
+}
+
+message ResetPasswordResponse {
+  string message = 1;
+};
